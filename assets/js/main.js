@@ -50,6 +50,8 @@ function criaQuizz(array){
             
             } else {
                 this.title.innerHTML = 'Parabéns, você terminou os estudos por hoje'
+                this.question = ''
+                this.message = ''
             }
         },
 
